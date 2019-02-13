@@ -1,0 +1,5 @@
+applications:
+- name: trace-app2
+  path: target/test-app2-0.0.1-SNAPSHOT.jar
+  routes:
+  - route: trace-app2.cfapps.io

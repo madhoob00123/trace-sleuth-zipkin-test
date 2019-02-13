@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: Application 2
+  sleuth:
+    enabled: true
+    sampler:
+      probability: 1.0
+  zipkin:
+    baseUrl: https://ps-zipkin-server.cfapps.io
+    enabled: true
+    sender:
+      type: web
+# server:
+#   port: 8082
